@@ -68,7 +68,8 @@ const createFile = (filename, input = '') => {
 };
 
 const templateString = `/*
-*/`;
+ */
+`;
 const scriptFilename = 'index.js';
 const scriptDir = `${year}/${day}`;
 
