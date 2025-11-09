@@ -8,7 +8,7 @@ import {
 } from 'fs';
 import { resolve } from 'path';
 
-let [year, day] = process.argv.slice(2);
+let [year, day, ext = 'js'] = process.argv.slice(2);
 
 const PACKAGES_JSON = './package.json';
 
@@ -20,7 +20,7 @@ const showError = (errorNumber, err) => {
 
   const errors = [];
   errors[0] =
-    'Please, use: npm run YEAR DAY\nWhere: YEAR is year in full number (YYYY) and DAY is the number of the day xD.';
+    'Please, use: npm run YEAR DAY EXT\nWhere: YEAR is year in full number (YYYY), DAY is the number of the day xD and EXT the file extension (js/ts).';
   errors[1] = 'YEAR must be greater than 2015.';
   errors[2] = 'DAY must be between 1 and 31.';
   errors[3] = 'Error writing files.';
@@ -70,12 +70,12 @@ const createFile = (filename, input = '') => {
 const templateString = `/*
  */
 `;
-const scriptFilename = 'index.js';
+const scriptFilename = `index.${ext}`;
 const scriptDir = `${year}/${day}`;
 
 const newScriptPackagesJson = {
   scriptName: `${year}:${day}`,
-  scriptCommand: `nodemon ${scriptDir}/index.js`,
+  scriptCommand: `nodemon ${scriptDir}/${scriptFilename}`,
 };
 
 createYearDirectory(scriptDir); // Create destination directory
