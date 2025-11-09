@@ -1,0 +1,28 @@
+{
+  "name": "halloween.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "eslint": "npx eslint .",
+    "eslint:fix": "npx eslint . --fix",
+    "template": "node template.js",
+    "2024:01": "nodemon 2024/01/index.js",
+    "2025:01": "nodemon 2025/01/index.js"
+  },
+  "keywords": [],
+  "author": "IvGaLa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvGaLa/halloween.dev.git"
+  },
+  "license": "ISC",
+  "description": "Realizo los retos de https://halloween.dev/ (Juego con retos de programación.) creados por Miguel Ángel Durán 'midudev' https://midu.dev",
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.2"
+  }
+}
