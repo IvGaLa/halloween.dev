@@ -9,7 +9,8 @@
     "template": "node template.js",
     "2024:01": "nodemon 2024/01/index.js",
     "2025:01": "nodemon 2025/01/index.ts",
-    "2025:02": "nodemon 2025/02/index.ts"
+    "2025:02": "nodemon 2025/02/index.ts",
+    "2025:03": "nodemon 2025/03/index.ts"
   },
   "keywords": [],
   "author": "IvGaLa",
