@@ -6,7 +6,7 @@ Realizo los retos de **[Halloween](https://halloween.dev/)** (Juego con retos de
 
 ## Progreso
 
-- 2025: 4 de 6
+- 2025: 5 de 6
 
 ## Changelog
 
@@ -16,5 +16,5 @@ Realizo los retos de **[Halloween](https://halloween.dev/)** (Juego con retos de
 | [Reto #2](2025/02/index.ts): 🐑 Cuenta las ovejas...                     | ![Dificultad](2025/assets/calavera.webp)                                         | 12 Nov 2025      | ![Reto 2](2025/assets/02_completed.webp) |
 | [Reto #3](2025/03/index.ts): 🔪 Es viernes 13                            | ![Dificultad](2025/assets/calavera.webp)                                         | 13 Nov 2025      | ![Reto 3](2025/assets/03_completed.webp) |
 | [Reto #4](2025/04/index.ts): Reto #4: 🔪 ¿Cuál es tu algoritmo favorito? | ![Dificultad](2025/assets/calavera.webp)![Dificultad](2025/assets/calavera.webp) | 14 Nov 2025      | ![Reto 4](2025/assets/04_completed.webp) |
-| Reto #5                                                                  |                                                                                  |                  | ![Reto 5](2025/assets/05_hide.webp)      |
+| [Reto #5](2025/05/index.ts): Reto #5: 🧩 Quiero jugar a un juego...      | ![Dificultad](2025/assets/calavera.webp)![Dificultad](2025/assets/calavera.webp) | 15 Nov 2025      | ![Reto 5](2025/assets/05_completed.webp) |
 | Reto #6                                                                  |                                                                                  |                  | ![Reto 6](2025/assets/06_hide.webp)      |

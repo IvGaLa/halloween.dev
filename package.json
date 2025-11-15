@@ -11,7 +11,8 @@
     "2025:01": "nodemon 2025/01/index.ts",
     "2025:02": "nodemon 2025/02/index.ts",
     "2025:03": "nodemon 2025/03/index.ts",
-    "2025:04": "nodemon 2025/04/index.ts"
+    "2025:04": "nodemon 2025/04/index.ts",
+    "2025:05": "nodemon 2025/05/index.ts"
   },
   "keywords": [],
   "author": "IvGaLa",
